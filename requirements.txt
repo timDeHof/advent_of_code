@@ -1,0 +1,3 @@
+pytest                      # For running automated tests
+hypothesis                  # For property-based testing (optional)
+advent-of-code-data         # Optional: for automating puzzle input retrieval
