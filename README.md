@@ -1,6 +1,24 @@
-# Advent of Code Setup
+# Advent of Code (Python)
 
-Clean workspace for Advent of Code solutions.
+This project uses **advent-of-code-data** to automatically fetch puzzle input
+and provides a clean structure for daily solutions and tests.
+
+## Setup
+1. Create a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Set up your session token in `.env`:
+```bash
+AOC_SESSION=your_session_token
+```
 
 ## Quick Start
 
@@ -19,7 +37,7 @@ python setup.py 5 --folder day_05_custom
 
 - `setup.py` - Simple, clean setup script
 - `day-setup-improved.py` - Feature-rich version with error handling
-- `day-setup-auto.py` - Auto-detecting seasonal version  
+- `day-setup-auto.py` - Auto-detecting seasonal version
 - `day-setup-universal.py` - Universal version with interactive mode
 - `day-setup-solid.py` - SOLID principles implementation
 - `cli-solid.py` - CLI wrapper for SOLID version
@@ -36,15 +54,4 @@ src/
     ├── input.txt
     ├── test-input.txt
     └── solution.py
-```
-
-## Dependencies
-
-```bash
-pip install aocd python-dotenv
-```
-
-Set your session token in `.env`:
-```
-AOC_SESSION=your_session_token
 ```

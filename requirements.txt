@@ -1,3 +1,9 @@
-pytest                      # For running automated tests
-hypothesis                  # For property-based testing (optional)
-advent-of-code-data         # Optional: for automating puzzle input retrieval
+advent-of-code-data
+pytest
+python-dotenv
+numpy
+rich
+tqdm
+black
+isort
+mypy
