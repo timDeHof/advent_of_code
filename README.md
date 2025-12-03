@@ -7,7 +7,7 @@ and provides a clean structure for daily solutions and tests.
 1. Create a virtual environment:
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+  # On Windows use `venv\Scripts\activate`
 ```
 
 2. Install dependencies:
