@@ -7,3 +7,6 @@ tqdm
 black
 isort
 mypy
+itertools
+scipy
+functools
